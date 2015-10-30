@@ -1,0 +1,16 @@
+{
+  "name": "babel-bug-dollar-amd",
+  "version": "1.0.0",
+  "description": "Babel bug reproduction",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js"
+  },
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.0.12",
+    "babel-plugin-transform-es2015-modules-amd": "^6.0.2"
+  },
+  "private": true
+}
